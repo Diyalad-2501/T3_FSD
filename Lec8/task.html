@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#model1">Modal 1</button>
+    <div id="model1" class="modal fade">
+        <div class="modal-dialog">
+           <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Model 1</h3>
+                <button class="btn btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex, porro aut amet vero non nisi deserunt in sint necessitatibus ea quisquam praesentium iure magnam delectus aspernatur eveniet quis animi.
+                Reprehenderit commodi et, totam provident vero quasi sed amet nesciunt quas odit, asperiores illum cumque sunt debitis voluptate illo! Temporibus rem maxime sapiente vitae quod unde veniam harum, quia cupiditate.
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-success" data-bs-dismiss="modal" data-bs-target="#model2" data-bs-toggle="modal">Model 2</button>
+            </div>
+           </div> 
+        </div>
+    </div>
+    <div id="model2" class="modal fade">
+        <div class="modal-dialog">
+           <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Model 2</h3>
+                <button class="btn btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex, porro aut amet vero non nisi deserunt in sint necessitatibus ea quisquam praesentium iure magnam delectus aspernatur eveniet quis animi.
+                Reprehenderit commodi et, tot.am provident vero quasi sed amet nesciunt quas odit, asperiores illum cumque sunt debitis voluptate illo! Temporibus rem maxime sapiente vitae quod unde veniam harum, quia cupiditate.
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-success" data-bs-dismiss="modal" data-bs-target="#model1" data-bs-toggle="modal">Model 1</button>
+            </div>
+           </div> 
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+</body>
+</html>
